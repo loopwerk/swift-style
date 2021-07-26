@@ -1,0 +1,75 @@
+opt_in_rules:
+  - anyobject_protocol
+  - array_init
+  - closure_end_indentation
+  - closure_spacing
+  - collection_alignment
+  - conditional_returns_on_newline
+  - contains_over_filter_count
+  - contains_over_filter_is_empty
+  - contains_over_first_not_nil
+  - contains_over_range_nil_comparison
+  - convenience_type
+  - discarded_notification_center_observer
+  - discouraged_object_literal
+  - empty_collection_literal
+  - empty_count
+  - empty_string
+  - explicit_init
+  - fallthrough
+  - first_where
+  - force_unwrapping
+  - identical_operands
+  - implicitly_unwrapped_optional
+  - joined_default_parameter
+  - last_where
+  - legacy_random
+  - literal_expression_end_indentation
+  - modifier_order
+  - operator_usage_whitespace
+  - overridden_super_call
+  - private_outlet
+  - prohibited_super_call
+  - reduce_into
+  - redundant_nil_coalescing
+  - redundant_type_annotation
+  - toggle_bool
+  - type_contents_order
+  - unused_import
+  - yoda_condition
+disabled_rules:
+  - cyclomatic_complexity
+  - file_length
+  - function_body_length
+  - function_parameter_count
+  - line_length
+  - opening_brace
+  - switch_case_alignment
+  - trailing_comma
+  - type_body_length
+type_name:
+  min_length: 2
+  max_length: 60
+type_contents_order:
+  order:
+    - case
+    - subtype
+    - associated_type
+    - type_alias
+    - type_property
+    - ib_outlet
+    - ib_inspectable
+    - instance_property
+    - type_method
+    - initializer
+    - view_life_cycle_method
+    - deinitializer
+    - [subscript, other_method, ib_action]
+identifier_name:
+  min_length: 2
+  excluded: [i, x, y]
+nesting:
+  type_level: 2
+excluded:
+  - Pods
+  - Tests
